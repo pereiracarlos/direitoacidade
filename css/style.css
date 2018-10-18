@@ -1,0 +1,63 @@
+.navbar-color {
+  background-color: blue;
+}
+
+.text-color {
+  color:white !important;
+}
+
+.margin-menu {
+  margin-right: 5px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #353b48;
+  font-size: 700%;
+  background-image: url("../img/newyork.jpg")
+}
+
+header .header-content{
+  position: relative;
+  width: 100%;
+}
+
+  @media (min-width: 200px){
+   header {
+    min-height: 100%;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+  }
+
+  header .header-content{
+    position: absolute;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding:0 50px;
+    text-align: center;
+  }
+
+  header .header-content .header-content-inner{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  h1{
+    font-size: 100%;
+    text-shadow: grey 0.1em 0.1em 0.3em;
+  }
+
+}
